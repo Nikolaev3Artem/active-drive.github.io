@@ -1,0 +1,190 @@
+body{
+    font-family: sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 52px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+}
+h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+}
+h3{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+}
+h4{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+}
+h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+h6{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.btn-primary{
+    background-color: #7FC060;
+    border-radius: 10px;
+    border-color: #7FC060;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #7FC060;
+    border-color: #7FC060;
+}
+
+.primary-color{
+    background-color: #7FC060;
+}
+
+.primary-color-text{
+    color: #7FC060;
+}
+
+.primary-tint1{
+    background-color: #000000;
+}
+
+.primary-tint2{
+    background-color: #FF6366;
+}
+
+.primary-tint2-text{
+    color: #FF6366;
+}
+
+.gray-900{
+    background-color: #000000;
+}
+
+.gray-800{
+    background-color: #4A4D4F;
+}
+
+.gray-700{
+    background-color: #7E8180;
+}
+
+.gray-600{
+    background-color: #B1B4B3;
+}
+
+.gray-500{
+    background-color: #C8CBCA;
+}
+
+.gray-400{
+    background-color: #E5E7E7;
+}
+
+.gray-300{
+    background-color: #F0F1F1;
+}
+
+.gray-200{
+    background-color: #F4F5F5;
+}
+
+.gray-100{
+    background-color: #FFFFFF;
+}
+
+.hero-img{
+    background-image: url(../images/hero-background.png);
+}
+
+#hero{
+    height: 897px;
+}
+
+.btn-outline-dark {
+    color: #FF6366;
+    border-color: #FF6366;
+    border:2px solid;
+}
+
+.carousel-item{
+    transition: none;
+    border-radius: 50%;
+}
+
+.carousel-item img{
+    border-radius: 30px;
+    min-width: 1300px;
+    height: 975px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0);
+    text-indent: 0px;
+
+}
+
+.carousel-indicators [data-bs-target] img {
+    border-radius: 10px;
+    height: 100%;
+}
+.carousel-indicators .active{
+    border:3px solid;
+    border-color: #7FC060;
+    transition: 0.7s ease-out;
+    border-radius: 15px;
+}
+
+.carousel{
+    width: 80%;
+}
+
+.carousel-indicators{
+    position: relative;
+    
+}
+
+img {
+    filter:none;
+}
+
+.address-block{
+    border-radius: 20px;
+}
+
+.cf-input{
+    background: #F3F3F3;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    height: 53px;
+    font-size: 20px;
+}
+
+.modal-header{
+    border: none;
+}
